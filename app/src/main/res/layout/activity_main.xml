@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textColor="#0f1853"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="@string/sign_up" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:textSize="16sp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/facebook"
+        android:textColor="#132052"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:textSize="16sp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/google"
+        android:textColor="#132052"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+    <EditText
+        android:id="@+id/tvName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        />
+
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp" />
+
+
+    <EditText
+        android:id="@+id/tvPhone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:hint="@string/phone_number"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_button"
+        android:textSize="16sp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/register_button_shape"
+        android:text="@string/registration"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
